@@ -16,8 +16,8 @@ import javax.swing.*;
 public class TresEnRaya extends JFrame implements ActionListener {
 
 		private static final long serialVersionUID = 1L;
-		private int filas = 6;			// para definir
-		private int columnas = 6; 		// el tablero
+		private int filas = 3;			// para definir
+		private int columnas = 3; 		// el tablero
 		private int jugadaNumero = 1;	// Nos permite controlar las jugadas
 			// para saber si hemos termimando
 		private int maxJugadas = filas * columnas; // Máximo número posible de jugadas
